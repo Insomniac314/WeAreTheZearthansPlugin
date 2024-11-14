@@ -1,0 +1,4 @@
+name: WeAreTheZearthansPlugin
+version: '1'
+main: org.Insomnia.weAreTheZearthansPlugin.WeAreTheZearthansPlugin
+api-version: '1.21'
