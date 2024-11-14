@@ -12,11 +12,11 @@ public class SQLiteLoader {
     private ResultSet result;
 
     public SQLiteLoader(WeAreTheZearthansPlugin instance){
-        String path = instance.getDataFolder() + File.separator + "ZDB.db";
+        String path = instance.getDataFolder() + File.separator + "ZDB.db"; //Set up the path
         try{
-            conn = DriverManager.getConnection("jdbc:sqlite:" + path);
+            conn = DriverManager.getConnection("jdbc:sqlite:" + path); //connection to config foler and create
         } catch (SQLException e){
-            e.printStackTrace();
+            e.printStackTrace(); //see what happens if I fuck up.
         }
     }
 }
